@@ -1,0 +1,132 @@
+
+        .logo img {
+            width: 164px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Segoe UI";
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .right ul li span {
+            padding: 0 5px;
+        }
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 34px;
+            margin: 40px 20px;
+            font-family: sans-serif;
+        }
+
+        .first span {
+            font-size: 50px;
+
+        }
+
+        section span img {
+            margin: 0px 9px;
+        }
+
+        .first p {
+            font-size: 20px;
+            width: 50vw;
+            text-align: center;
+
+        }
+
+        .btn{
+            
+            background-color: rgb(168, 168, 225);
+            border: 0px;
+            border-radius: 10px;
+            font-weight: bolder;
+            color: white;
+            font-size: 14px;
+            padding: 18px 30px;
+            margin: 12px 0px;
+            cursor: pointer;
+            
+           
+        }
+        .btn a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .green{
+            background-color: #1ab01a;
+
+        }
+.item{
+    
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.item-lang{
+    font-weight: bolder;
+    padding-bottom: 40px;
+    
+    
+}
+        .flex {
+            display: flex;
+
+        }
+
+        .second {
+            max-width: 50vw;
+         margin: auto;
+        }
+
+        .small {
+            font-size: 10px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 12px
+        }
+        .download:nth-child(1){
+            font-size: 23px;
+        }
+        .download img{
+            padding: 0px 5px;
+            margin: 10px;
+        }
+    
+        .download{
+            display: flex;
+            font-family: sans-serif;
+            align-items: center;
+            gap: 10px;
+        }
+        @media screen and (max-width:1145px) {
+            .grid{
+            
+            grid-template-columns: 1fr;
+    
+        }  
+
+        }
